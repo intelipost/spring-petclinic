@@ -32,6 +32,7 @@ jobs:
         uses: actions/checkout@v2
         with:
           repository: intelipost/intelipost-deploy-eks
+          ref: master
           path: intelipost-deploy-eks
       
       - name: kustomize
@@ -50,8 +51,8 @@ jobs:
           git config --local user.email "action@github.com"
           git config --local user.name "Deploy Action"
           git commit -am "change image tag"
-      - name: push
-        uses: ad-m/github-push-action@master
+#      - name: push
+#        uses: ad-m/github-push-action@master
     
     
     
