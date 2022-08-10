@@ -1,0 +1,6 @@
+export JAVA_OPTS="-javaagent:/Users/cdorner/intelipost-workspace/spring-petclinic/opentelemetry-javaagent.jar"
+export OTEL_SERVICE_NAME=petclinic
+export OTEL_TRACES_EXPORTER=jaeger
+#export OTEL_EXPORTER_OTLP_ENDPOINT=http://10.64.194.250:4317
+export OTEL_EXPORTER_JAEGER_ENDPOINT=http://10.64.194.250:14250
+java -jar $JAVA_OPTS ./target/spring-petclinic-2.7.0-SNAPSHOT.jar
