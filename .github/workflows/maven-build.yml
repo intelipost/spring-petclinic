@@ -20,6 +20,7 @@ jobs:
       - name: checkout deploy repository
         uses: actions/checkout@v3
         with:
+          ref: master
           repository: intelipost/intelipost-deploy-eks
           path: deploy
       - name: Set up JDK 11
