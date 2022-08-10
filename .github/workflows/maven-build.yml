@@ -29,7 +29,7 @@ jobs:
     needs: build
     steps:
       - name: checkout
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
         with:
           repository: intelipost/intelipost-deploy-eks
           ref: master
