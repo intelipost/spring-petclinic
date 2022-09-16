@@ -69,6 +69,13 @@ class OwnerController {
 		return VIEWS_OWNER_CREATE_OR_UPDATE_FORM;
 	}
 
+
+	// Only for debug
+	@GetMapping("/owners/delayed/{delay}")
+	public void delay(@PathVariable(name = "delay", required = false) Long delay) throws InterruptedException {
+		Thread.sleep(delay);
+	}
+
 	@PostMapping("/owners/new")
 	public String processCreationForm(@Valid Owner owner, BindingResult result) {
 		if (result.hasErrors()) {

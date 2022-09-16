@@ -30,27 +30,32 @@
   </properties>
 
   <dependencies>
-	  <dependency>
-	    <groupId>io.opentelemetry</groupId>
-	    <artifactId>opentelemetry-api</artifactId>
-	    <version>1.16.0</version>
-	  </dependency>
-  	<dependency>
-	    <groupId>io.opentelemetry.instrumentation</groupId>
-	    <artifactId>opentelemetry-logback-mdc-1.0</artifactId>
-	    <version>1.16.0-alpha</version>
-	  </dependency>
-	  <dependency>
-			<groupId>io.opentelemetry</groupId>
-			<artifactId>opentelemetry-sdk</artifactId>
-			<version>1.16.0</version>
-		</dependency>
-		<dependency>
-			<groupId>io.opentelemetry</groupId>
-			<artifactId>opentelemetry-sdk-extension-autoconfigure</artifactId>
-			<version>1.16.0-alpha</version>
-		</dependency>
-  	
+    <dependency>
+      <groupId>io.micrometer</groupId>
+      <artifactId>micrometer-registry-prometheus</artifactId>
+    </dependency>
+
+<!--	  <dependency>-->
+<!--	    <groupId>io.opentelemetry</groupId>-->
+<!--	    <artifactId>opentelemetry-api</artifactId>-->
+<!--	    <version>1.16.0</version>-->
+<!--	  </dependency>-->
+<!--  	<dependency>-->
+<!--	    <groupId>io.opentelemetry.instrumentation</groupId>-->
+<!--	    <artifactId>opentelemetry-logback-mdc-1.0</artifactId>-->
+<!--	    <version>1.16.0-alpha</version>-->
+<!--	  </dependency>-->
+<!--	  <dependency>-->
+<!--			<groupId>io.opentelemetry</groupId>-->
+<!--			<artifactId>opentelemetry-sdk</artifactId>-->
+<!--			<version>1.16.0</version>-->
+<!--		</dependency>-->
+<!--		<dependency>-->
+<!--			<groupId>io.opentelemetry</groupId>-->
+<!--			<artifactId>opentelemetry-sdk-extension-autoconfigure</artifactId>-->
+<!--			<version>1.16.0-alpha</version>-->
+<!--		</dependency>-->
+
     <!-- Spring and Spring Boot dependencies -->
     <dependency>
       <groupId>org.springframework.boot</groupId>
