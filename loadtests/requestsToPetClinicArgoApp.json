@@ -1,0 +1,280 @@
+{
+	"info": {
+		"_postman_id": "1e124af7-c8f8-4671-839b-d2b76972ba6d",
+		"name": "spring-petclinic",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "14182847"
+	},
+	"item": [
+		{
+			"name": "owner find",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://petclinic.us-east-1.qa.ip-apps.com.br/owners/find",
+					"protocol": "http",
+					"host": [
+						"petclinic",
+						"us-east-1",
+						"qa",
+						"ip-apps",
+						"com",
+						"br"
+					],
+					"path": [
+						"owners",
+						"find"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "owner find Copy",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://petclinic.us-east-1.qa.ip-apps.com.br/owners/find",
+					"protocol": "http",
+					"host": [
+						"petclinic",
+						"us-east-1",
+						"qa",
+						"ip-apps",
+						"com",
+						"br"
+					],
+					"path": [
+						"owners",
+						"find"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "owner find Copy 2",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://petclinic.us-east-1.qa.ip-apps.com.br/owners/find",
+					"protocol": "http",
+					"host": [
+						"petclinic",
+						"us-east-1",
+						"qa",
+						"ip-apps",
+						"com",
+						"br"
+					],
+					"path": [
+						"owners",
+						"find"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "home",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://petclinic.us-east-1.qa.ip-apps.com.br/",
+					"protocol": "http",
+					"host": [
+						"petclinic",
+						"us-east-1",
+						"qa",
+						"ip-apps",
+						"com",
+						"br"
+					],
+					"path": [
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "home Copy",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://petclinic.us-east-1.qa.ip-apps.com.br/",
+					"protocol": "http",
+					"host": [
+						"petclinic",
+						"us-east-1",
+						"qa",
+						"ip-apps",
+						"com",
+						"br"
+					],
+					"path": [
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "oups",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://petclinic.us-east-1.qa.ip-apps.com.br/oups",
+					"protocol": "http",
+					"host": [
+						"petclinic",
+						"us-east-1",
+						"qa",
+						"ip-apps",
+						"com",
+						"br"
+					],
+					"path": [
+						"oups"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "vets",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://petclinic.us-east-1.qa.ip-apps.com.br/vets.html",
+					"protocol": "http",
+					"host": [
+						"petclinic",
+						"us-east-1",
+						"qa",
+						"ip-apps",
+						"com",
+						"br"
+					],
+					"path": [
+						"vets.html"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "vets Copy",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://petclinic.us-east-1.qa.ip-apps.com.br/vets.html",
+					"protocol": "http",
+					"host": [
+						"petclinic",
+						"us-east-1",
+						"qa",
+						"ip-apps",
+						"com",
+						"br"
+					],
+					"path": [
+						"vets.html"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "vets Copy",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://petclinic.us-east-1.qa.ip-apps.com.br/vets.html",
+					"protocol": "http",
+					"host": [
+						"petclinic",
+						"us-east-1",
+						"qa",
+						"ip-apps",
+						"com",
+						"br"
+					],
+					"path": [
+						"vets.html"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "delay",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://petclinic.us-east-1.qa.ip-apps.com.br/owners/delayed/2000",
+					"protocol": "http",
+					"host": [
+						"petclinic",
+						"us-east-1",
+						"qa",
+						"ip-apps",
+						"com",
+						"br"
+					],
+					"path": [
+						"owners",
+						"delayed",
+						"2000"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					"// sleepFor(getRandomInt(10, 500));",
+					"",
+					"",
+					"function sleepFor(sleepDuration){",
+					"    console.log(sleepDuration);",
+					"    var now = new Date().getTime();",
+					"    while(new Date().getTime() < now + sleepDuration){ ",
+					"        /* Do nothing */ ",
+					"    }",
+					"}",
+					"",
+					"function getRandomInt(min, max) {",
+					"    min = Math.ceil(min);",
+					"    max = Math.floor(max);",
+					"    return Math.floor(Math.random() * (max - min + 1)) + min;",
+					"}"
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	]
+}
